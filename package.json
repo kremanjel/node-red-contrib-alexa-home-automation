@@ -1,0 +1,21 @@
+{
+  "name": "red-contrib-alexa-home-automation",
+  "version": "1.0.0",
+  "description": "Nodes for creating Alexa Devices with a Home Automation Skill.",
+  "main": "alexahomeautomation.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_spec.js\""
+  },
+  "keywords": [
+    "alexa",
+    "homeautomation",
+    "skill"
+  ],
+  "author": "Jan Merkel",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "node-red": "^1.3.5",
+    "node-red-node-test-helper": "^0.2.7"
+  }
+}
